@@ -39,7 +39,7 @@ const Profile = () => {
         <h2>Mis tecnologías</h2>
         <div className="profile-habilities-icons">
           <div className="hab-icon">
-            <img src="../public/icons/HTML5_Logo_512.png" alt="logo html5" />
+            <img src="./icons/HTML5_Logo_512.png" alt="logo html5" />
           </div>
           <div className="hab-icon">
             <img src="./icons/css.png" alt="logo css" />
