@@ -42,42 +42,36 @@ const Profile = () => {
             <img src="../public/icons/HTML5_Logo_512.png" alt="logo html5" />
           </div>
           <div className="hab-icon">
-            <img src="../public/icons/css.png" alt="logo css" />
+            <img src="./icons/css.png" alt="logo css" />
           </div>
           <div className="hab-icon js">
-            <img
-              src="../public/icons/javascript-logo.png"
-              alt="logo JavaScript"
-            />
+            <img src="./icons/javascript-logo.png" alt="logo JavaScript" />
           </div>
           <div className="hab-icon">
-            <img src="../public/icons/sass.png" alt="logo Sass" />
+            <img src="./icons/sass.png" alt="logo Sass" />
           </div>
           <div className="hab-icon">
-            <img
-              src="../public/icons/Bootstrap_logo.svg.png"
-              alt="logo Bootstrap"
-            />
+            <img src="./icons/Bootstrap_logo.svg.png" alt="logo Bootstrap" />
           </div>
           <div className="hab-icon">
-            <img src="../public/icons/React.svg.png" alt="logo React" />
+            <img src="./icons/React.svg.png" alt="logo React" />
           </div>
 
           <div className="hab-icon">
-            <img src="../public/icons/nodejs.png" alt="logo nodeJS" />
+            <img src="./icons/nodejs.png" alt="logo nodeJS" />
           </div>
           <div className="hab-icon">
-            <img src="../public/icons/mongoDB.png" alt="logo mongoDB" />
+            <img src="./icons/mongoDB.png" alt="logo mongoDB" />
           </div>
 
           <div className="hab-icon">
-            <img src="../public/icons/git.png" alt="logo git" />
+            <img src="./icons/git.png" alt="logo git" />
           </div>
           <div className="hab-icon">
-            <img src="../public/icons/github.png" alt="logo github" />
+            <img src="./icons/github.png" alt="logo github" />
           </div>
           <div className="hab-icon">
-            <img src="../public/icons/firebase.png" alt="logo firebase" />
+            <img src="./icons/firebase.png" alt="logo firebase" />
           </div>
         </div>
       </section>
