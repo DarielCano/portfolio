@@ -89,10 +89,9 @@ const Contact = () => {
       </Modal>
       <div className="container">
         <p className="contact-intro animate__animated animate__backInDown">
-          {}
-          {/*  Si necesitas conocer de mis proyectos, o contactarme para apoyarte o
+          Si necesitas conocer de mis proyectos, o contactarme para apoyarte o
           simplemente para saludar, escríbeme al correo
-          <span> dariel.cano1992@gmail.com</span> */}
+          <span> dariel.cano1992@gmail.com</span>
         </p>
 
         <form
