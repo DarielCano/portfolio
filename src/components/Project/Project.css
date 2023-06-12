@@ -43,6 +43,11 @@
 .project-container__text h2,
 .project-container__text p {
     padding: 0.8rem;
+
+}
+
+.project-container__text p {
+    padding-bottom: 2rem;
 }
 
 .project-container:hover .project-container__text {
@@ -59,6 +64,13 @@
 
 .project-container__text h2 {
     padding: 1rem;
+}
+
+.btn-project {}
+
+.btn-project:hover {
+    transition: all 0.5s ease;
+    opacity: 0.7;
 }
 
 @media screen and (min-width:800px) {
