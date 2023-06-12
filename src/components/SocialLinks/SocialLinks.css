@@ -42,6 +42,7 @@
 @media screen and (max-width:600px) {
     .links-container {
         width: 3rem;
+        top: 70vh;
     }
 
     .link {
@@ -56,7 +57,7 @@
     }
 
     .link:hover {
-        width: 5rem;
+        width: 10rem;
 
     }
 }

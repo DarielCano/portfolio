@@ -1,5 +1,5 @@
 import "./Profile.css";
-import rostroImg from "../../assets/rostro.png";
+import rostroImg from "../../assets/rostro.jpeg";
 import "animate.css";
 const Profile = () => {
   return (

@@ -91,7 +91,9 @@ const Contact = () => {
         <p className="contact-intro animate__animated animate__backInDown">
           Si necesitas conocer de mis proyectos, o contactarme para apoyarte o
           simplemente para saludar, escríbeme al correo
-          <span> dariel.cano1992@gmail.com</span>
+          <a href="mailto:dariel.cano1992@gmail.com?subject=Necesito%20ayuda">
+            : dariel.cano1992@gmail.com
+          </a>
         </p>
 
         <form
