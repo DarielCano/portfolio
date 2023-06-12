@@ -12,7 +12,7 @@
     -webkit-box-shadow: 25px 18px 32px -4px rgba(0, 0, 0, 0.88);
     -moz-box-shadow: 25px 18px 32px -4px rgba(0, 0, 0, 0.88);
     font-weight: lighter;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     border-radius: 25px;
     background-color: white;
 
@@ -22,7 +22,7 @@
     padding: 1rem;
     line-height: 1.5;
     font-size: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .contact-intro a {

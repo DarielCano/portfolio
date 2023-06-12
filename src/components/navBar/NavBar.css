@@ -33,14 +33,25 @@ header:hover {
     position: absolute;
     top: 6rem;
     left: 0;
-
+    height: 100vh;
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.5s ease;
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.5);
+    /*  background-color: rgba(0, 0, 0, 0.5); */
+    background-color: black;
 
 }
+
+.nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 5rem;
+}
+
+
 
 .bg-nav {
     background-color: rgba(0, 0, 0, 0.5)
@@ -54,7 +65,8 @@ header:hover {
 
 
 .enlace {
-    margin-bottom: 1rem;
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
 }
 
 .enlace:hover {
@@ -103,12 +115,13 @@ header:hover {
     }
 
     .enlace {
+        font-size: 1.5rem;
         padding-top: 1rem;
         margin-right: 2.2rem;
     }
 
     .nav ul {
-        display: flex;
+        flex-direction: row;
         justify-content: space-between;
         align-items: center;
     }
