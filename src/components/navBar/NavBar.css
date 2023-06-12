@@ -115,6 +115,7 @@ header:hover {
         align-items: center;
         pointer-events: auto;
         position: static;
+        height: auto;
     }
 
     .enlace {
