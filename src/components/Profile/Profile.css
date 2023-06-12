@@ -1,0 +1,131 @@
+.profile-container {
+    width: 100%;
+
+    padding: 1rem;
+    padding-top: 5rem;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #363b73;
+}
+
+.profile-info {
+    width: 100%;
+
+}
+
+.profile-name {
+    margin-bottom: 2rem;
+    line-height: 1.5;
+
+}
+
+.profile-name small {
+    font-weight: bold;
+    font-size: 1rem;
+    font-style: italic;
+
+
+}
+
+.profile-aboutme {
+    margin-bottom: 2rem;
+    padding-right: 1rem;
+}
+
+.profile-aboutme p {
+    font-size: 1.5rem;
+    text-align: right;
+    line-height: 1.5;
+}
+
+.profile-img {
+    width: 100%;
+    padding: 1rem;
+}
+
+.btn-cv {
+
+    font-weight: bold;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.btn-cv:hover {
+    opacity: 0.7;
+
+}
+
+.profile-habilities {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.profile-habilities h2 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.profile-habilities-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 1rem;
+
+}
+
+.hab-icon {
+    margin-top: 2rem;
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hab-icon img {
+    width: 100%;
+
+}
+
+.js {
+    padding: 0.5rem;
+}
+
+@media screen and (min-width:900px) {
+    .profile-container {
+        width: 100%;
+        height: 100vh;
+        padding: 1rem;
+        padding-top: 5rem;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+
+    }
+
+    .profile-info {
+        width: 35%;
+
+    }
+
+    .profile-habilities {
+        margin-top: 0;
+        width: 35%;
+        padding-left: 1rem;
+    }
+
+    .profile-img {
+        width: 30%;
+
+    }
+}

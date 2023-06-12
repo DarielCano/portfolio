@@ -1,0 +1,61 @@
+.links-container {
+    position: absolute;
+    left: 0;
+    top: 40vh;
+    width: 5rem;
+
+}
+
+.link {
+    width: 4rem;
+    cursor: pointer;
+    transition: width 0.8s ease;
+    height: 4rem;
+    padding: 0.2rem;
+    padding-top: 0.5rem;
+}
+
+.github {
+    background-color: white;
+}
+
+.linkedin {
+    background-color: #2160f3;
+}
+
+.whatsapp {
+
+    background-color: #42a329;
+}
+
+.link img {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto;
+}
+
+.link:hover {
+    width: 7rem;
+}
+
+
+@media screen and (max-width:600px) {
+    .links-container {
+        width: 3rem;
+    }
+
+    .link {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .link img {
+        width: 2rem;
+        height: 2rem;
+
+    }
+
+    .link:hover {
+        width: 5rem;
+    }
+}

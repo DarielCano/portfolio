@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carlito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap');
+
+:root {
+
+  line-height: 1.5;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Reseteamos los margin y paddings de todas las etiquetas */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: white
+}
+
+/* Evitamos problemas con las imagenes */
+img,
+picture,
+video,
+iframe,
+figure {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  /* opcional */
+  -o-object-fit: cover;
+  object-fit: cover;
+  /* opcional */
+  -o-object-position: center center;
+  object-position: center center;
+}
+
+/* Reseteamos los enlaces para funcionar como cajas... */
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+}
+
+/* ... excepto los que se encuentran en párrafos */
+p a {
+  display: inline;
+}
+
+/* Quitamos los puntos de los <li> */
+li {
+  list-style-type: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Configuramos anclas suaves */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Desactivamos estilos por defecto de las principales etiquetas de texto */
+h1 {
+  font-size: 2.5em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+strong,
+blockquote,
+i,
+b,
+u,
+em {
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Evitamos problemas con los pseudoelementos de quotes */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+/* Configuramos el texto que seleccionamos */
+::-moz-selection {
+  background-color: var(--negro);
+  color: var(--blanco);
+}
+
+::selection {
+  background-color: var(--negro);
+  color: var(--blanco);
+}
+
+/* Nivelamos problemas de tipografías y colocación de formularios */
+form,
+input,
+textarea,
+select,
+button,
+label {
+  font-family: inherit;
+  font-size: inherit;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  background-color: transparent;
+  color: inherit;
+  display: block;
+  /* opcional */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* Reseteamos las tablas */
+table,
+tr,
+td {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Evitamos problemas con los SVG */
+svg {
+  width: 100%;
+  display: block;
+  fill: currentColor;
+}
+
+/* Configuramos la tipografía para toda la web */
+body {
+  min-height: 100vh;
+  font-size: 100%;
+  font-family: var(--tipo-principal);
+  color: var(--negro);
+  /* opcional */
+  line-height: 1.4em;
+  /* opcional */
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  /* opcional */
+  font-smooth: always;
+  /* opcional */
+  -webkit-font-smoothing: antialiased;
+  /* opcional */
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-family: 'Ysabeau', sans-serif;
+}
+
+form {
+  font-family: 'Carlito', sans-serif;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  width: 90%;
+  padding: 0.8rem;
+  border-radius: 20px;
+  margin: 0 auto;
+  max-width: 20rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+  height: 3rem;
+
+}
+
+.app-container {
+  width: 100%;
+  height: 100vh;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 1rem;
+  padding-top: 7rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: #363b73;
+}

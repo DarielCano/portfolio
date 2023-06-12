@@ -1,0 +1,40 @@
+.portfolio-container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 1rem;
+    padding-top: 7rem;
+    background-color: #363b73;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.portfolio-container__content {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-container h2 {
+
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.loader {
+    width: 4rem;
+    height: 4rem;
+}
+
+.portfolio-container__projects {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+@media screen and (min-width:1000px) {
+    .portfolio-container__projects {
+
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
