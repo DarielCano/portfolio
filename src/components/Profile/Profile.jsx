@@ -4,7 +4,7 @@ import "animate.css";
 const Profile = () => {
   return (
     <div className="profile-container">
-      <section className="profile-info animate__animated animate__fadeInLeft animate__delay-1s">
+      <section className="profile-info animate__animated animate__fadeInLeft ">
         <div className="profile-name">
           <h2>Dariel Cano González</h2>
           <small>Desarrollador FrontEnd</small>
@@ -35,7 +35,7 @@ const Profile = () => {
       <section className="profile-img animate__animated  animate__fadeIn">
         <img src={rostroImg} alt="foto Dariel" />
       </section>
-      <section className="profile-habilities animate__animated animate__fadeInRight animate__delay-1s">
+      <section className="profile-habilities animate__animated animate__fadeInRight ">
         <h2>Mis tecnologías</h2>
         <div className="profile-habilities-icons">
           <div className="hab-icon">
