@@ -11,16 +11,29 @@ const Profile = () => {
         </div>
         <article className="profile-aboutme">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eos
-            aliquid, ducimus quas tempore atque dicta repudiandae nam.
-            Praesentium cupiditate itaque quasi voluptate tempora numquam soluta
-            officiis pariatur obcaecati officia.
+            Hola, soy Dariel. Tengo una licenciatura en Ingeniería en
+            Telecomunicaciones y Electrónica en la Universidad Central "Marta
+            Abreu" de Las Villas en Cuba, además de tener una Maestría en
+            Ciencias en Ingeniería Electrónica en el Tecnológico Nacional de
+            México en Celaya. Soy un apasionado de la programación web y me
+            encuentro en constante aprendizaje y actualización de conocimientos.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eos
-            aliquid, ducimus quas tempore atque dicta repudiandae nam.
-            Praesentium cupiditate itaque quasi voluptate tempora numquam soluta
-            officiis pariatur obcaecati officia.
+            Te puedo ayudar a crear tus aplicaciones web ya sea con HTML, CSS
+            (SASS) y Javascript o a través de la librería React Js. También
+            trabajo con frameworks como Bootstrap para los estilos y con
+            herramientas de desarrollo como Git y GitHub, y para el deploy de
+            proyectos creados en los repositorios a través de GitHub-Pages y
+            Vercel. En lo referente al backend tengo conocimientos en la
+            creación de api-REST con Node JS y MongoDB y el manejo de la api de
+            Google Firebase para el desarrollo de aplicaciones web.
+          </p>
+
+          <p>
+            Actualmente resido en Guanajuato, Guanajuato, México y me encuentro
+            constantemente realizando proyectos y aplicaciones de tipo blog,
+            e-commerce a modo de seguirme superando. En lo que te pueda apoyar
+            no dudes en contactarme.
           </p>
         </article>
         <a

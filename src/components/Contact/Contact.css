@@ -7,7 +7,8 @@
     max-width: 60rem;
     margin: 0 auto;
     border: thin solid black;
-    font-size: 1.2rem;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-shadow: 25px 18px 32px -4px rgba(0, 0, 0, 0.88);
     -webkit-box-shadow: 25px 18px 32px -4px rgba(0, 0, 0, 0.88);
     -moz-box-shadow: 25px 18px 32px -4px rgba(0, 0, 0, 0.88);
@@ -74,6 +75,7 @@
     resize: none;
     border: thin solid black;
     color: black;
+    font-size: 1.2rem;
 }
 
 .contact-error-text {

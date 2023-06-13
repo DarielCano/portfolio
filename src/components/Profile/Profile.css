@@ -37,7 +37,7 @@
 .profile-aboutme p {
     font-size: 1.2rem;
     text-align: justify;
-    line-height: 1.2;
+    line-height: 1.4;
 }
 
 .profile-img {
@@ -125,14 +125,5 @@
 
     .profile-img {
         width: 30%;
-
-
-
-    }
-
-    .profile-aboutme p {
-        font-size: 1.5rem;
-        text-align: right;
-        line-height: 1.5;
     }
 }
