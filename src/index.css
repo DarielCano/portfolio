@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Carlito&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
 
 :root {
 
@@ -13,6 +10,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --font-ppal: 'Josefin Sans', sans-serif;
+
+  --yelow-1: #ffff0d;
+  --yellow-2: #D1B400;
+  --yellow-3: #f6ff41;
 }
 
 /* Reseteamos los margin y paddings de todas las etiquetas */
@@ -153,7 +156,7 @@ svg {
 body {
   min-height: 100vh;
   font-size: 100%;
-  font-family: var(--tipo-principal);
+  font-family: var(--font-ppal);
   color: var(--negro);
   /* opcional */
   line-height: 1.4em;
@@ -184,8 +187,12 @@ body {
   min-height: 100vh;
 }
 
+a {
+  color: var(--yelow-1);
+}
+
 .btn {
-  background-color: blue;
+  background-color: var(--yelow-1);
   color: white;
   width: 90%;
   padding: 0.8rem;
@@ -195,6 +202,9 @@ body {
   font-size: 1.3rem;
   cursor: pointer;
   height: 3rem;
+  color: black;
+  transition: all 0.5s ease;
+
 
 }
 
@@ -212,5 +222,5 @@ body {
   padding-top: 7rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  background-color: #363b73;
+  background-color: rgba(0, 0, 0, 0.9);
 }

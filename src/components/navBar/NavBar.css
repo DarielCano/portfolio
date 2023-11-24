@@ -10,8 +10,9 @@
     z-index: 999;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    color: white;
+    color: var(--yelow-1);
     transition: all 0.5s;
+
 }
 
 header:hover {
@@ -69,12 +70,13 @@ header:hover {
 .enlace {
     font-size: 2rem;
     padding-bottom: 0.5rem;
-
+    font-family: var(--font-ppal);
 }
 
 .enlace:hover {
     scale: 1.3;
     transition: all 0.5s ease;
+    color: var(--yellow-2)
 }
 
 .logo {
@@ -99,7 +101,7 @@ header:hover {
 }
 
 .is-active {
-    border-bottom: thin solid white;
+    border-bottom: thin solid var(--yelow-1);
 }
 
 @media screen and (min-width: 600px) {

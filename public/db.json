@@ -1,0 +1,67 @@
+{"proyectos" : [
+    {
+    "id": 1,
+    "title": "Futbol Experience",
+    "link": "https://futbolexperience.netlify.app/",
+    "gitLink":"https://github.com/LeandroMaxRomero/futbol_experience",
+    "src": "./imagenes-proj/futbol-experience.png",
+    "lenguages": ["React Js, JS, HTML, CSS(SASS)"],
+    "description":"Proyecto realizado en colaboración con Leandro Romero https://github.com/LeandroMaxRomero para emprendedor argentino. Página tipo blog realcionada con el fútbol argentino y visitas a lugares de interes futbolístico. Gran experiencia trabajando como colaborador"
+  },
+    {
+    "id": 2,
+    "title": "Gestor de Usuarios Gym",
+    "link": "https://gym-users.netlify.app/",
+    "gitLink": "https://github.com/DarielCano/Gestion-Usuarios-Gym",
+    "src": "./imagenes-proj/gym-users.png",
+    "lenguages": ["React Js, Node Js, MongoDb"],
+    "description":"Sistema para gestión de usuarios, especialmente para gimnasios pero adaptable a cualquier negocio. Realizado con MERN. Para poder visualizar o poder trabajr con la misma debe tener instalado MongoDB y seguir las instrucciones del Readme.md en el repositorio de la aplicación"
+  },
+  {
+    "id": 3,
+    "title": "MICamagüey",
+    "link": "https://darielcano.github.io/MiCamaguey/",
+    "gitLink":"https://github.com/DarielCano/MiCamaguey",
+    "src": "./imagenes-proj/MiCamaguey.png",
+    "lenguages": ["HTML,CSS"],
+    "description":"Mi primer sitio tipo blog. Funciona como sitio estático para consultar información sobre mi ciudad natal Camagüey, Cuba. Desarrollado con HTML5 y CSS.  "
+  },
+     
+    {
+      "id": 4,
+      "title": "CubaLibre Barbería",
+      "link": "https://darielcano.github.io/CubaLibre-Barberia/",
+      "gitLink":"https://github.com/DarielCano/CubaLibre-Barberia",
+      "src": "./imagenes-proj/barberia.png",
+      "lenguages": ["HTML, CSS, JS"],
+      "description":"Un gran desafío para mi porque fue mi primer gran proyecto, como parte de un trabajo final para un curso. Desarrollado con HTML, CSS y JS haciendo uso del localStorage y el sessionStorage para almacenar los usuarios y el inicio de sesión. Se utilizaron librerías como Toastify y el SweetAlert para notificaciones y mensajes modales respectivamente."
+    },
+    {
+      "id": 5,
+      "title": "Generador de días",
+      "link": "https://darielcano.github.io/Generador_de_dias/",
+      "gitLink":"https://github.com/DarielCano/Generador_de_dias",
+      "src": "./imagenes-proj/generador-de-dias.png",
+      "lenguages": ["HTML, CSS, JS"],
+      "description":"Surge como iniciativa personal para ahorrar dinero con mi mujer. Se trata de un generador de días que cuenta con un botón para generar un día del año de modo aleatorio. Los días no se deben repetir y según el día es el monto que se debe ahorrar. Se empleó HTML, CSS, JS, localStorage y la librería SweetAlert para notificaciones."
+    },
+    {
+      "id": 6,
+      "title": "FrontEnd Store",
+      "link": "https://darielcano.github.io/e-commerce-react/",
+      "gitLink":"https://github.com/DarielCano/e-commerce-react",
+       "src": "./imagenes-proj/e-commerce.png",
+      "lenguages": ["React JS, HTML, CSS, JS"],
+      "description":"E- commerce ficticio con productos de las tecnologías Frontend. Desarrollado con React JS y haciendo uso de la api de Google Firebase para almacenar los productos y las órdenes de compra. También cuenta con sistema de autenticación de usuarios. Se empleó react-router-DOM, SweetAlert y Toastify."
+    },
+  {
+      "id": 7,
+      "title": "Calculadora",
+      "link": "https://darielcano.github.io/Calculadora-sencilla/",
+      "gitLink":"https://github.com/DarielCano/Calculadora-sencilla",
+      "src": "./imagenes-proj/calculadora.png",
+      "lenguages": ["HTML, CSS, JS"],
+      "description":"Se trata de una calculadora sencilla que realiza las operaciones básicas de adición, substración, multiplicación y división. Se implementó con eventos del click y del teclado."
+    }
+      ]
+}

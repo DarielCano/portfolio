@@ -3,7 +3,7 @@
     min-height: 100vh;
     padding: 1rem;
     padding-top: 7rem;
-    background-color: #363b73;
+    background-color: rgba(0, 0, 0, 0.9);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,11 +15,13 @@
     height: 100%;
 }
 
-.portfolio-container h2 {
+.portfolio-container__content h2 {
 
     width: 100%;
     text-align: center;
     padding: 1rem;
+    color: #f7ffc1;
+    font-family: var(--font-ppal);
 }
 
 .loader {
@@ -30,11 +32,13 @@
 .portfolio-container__projects {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    gap: 0.5rem;
 }
 
 @media screen and (min-width:1000px) {
     .portfolio-container__projects {
 
         grid-template-columns: repeat(3, 1fr);
+        gap: 0.5rem;
     }
 }

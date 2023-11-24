@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { AiOutlineMenu } from "react-icons/ai";
+
 import { useRef } from "react";
 import "animate.css";
 import "./NavBar.css";

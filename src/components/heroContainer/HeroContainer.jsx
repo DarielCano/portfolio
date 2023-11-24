@@ -14,9 +14,9 @@ const HeroContainer = () => {
           <Typewriter
             onInit={(typewriter) => {
               typewriter
-                .pauseFor(2000)
+                /*    .pauseFor(500) */
                 .typeString("Hola, mi nombre es Dariel. ")
-                .pauseFor(500)
+                /*  .pauseFor(50) */
                 .typeString(" Soy desarrollador FrontEnd ")
                 .start();
             }}
@@ -25,7 +25,7 @@ const HeroContainer = () => {
 
         <Link
           to="/contact"
-          className=" animate__animated animate__fadeIn animate__delay-2s btn btn-ct "
+          className=" animate__animated animate__fadeIn animate__delay-4s btn btn-ct "
         >
           <span>Contáctame</span> <FiArrowRight className="arrow" />
         </Link>

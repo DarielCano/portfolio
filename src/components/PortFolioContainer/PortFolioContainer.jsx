@@ -10,6 +10,7 @@ const PortFolioContainer = () => {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     fetch("https://my-json-server.typicode.com/DarielCano/ApiProjects/db")
+      /*  fetch("https://github.com/DarielCano/ApiProjects/blob/main/db.json") */
       .then((resp) => resp.json())
       .then((data) => {
         setProjects(data.proyectos);

@@ -20,7 +20,7 @@
 
 .hero-intro {
     padding: 1rem;
-    font-family: 'Roboto Mono', monospace;
+    font-family: var(--font-ppal);
     line-height: 1.3;
     font-size: 1.3rem;
     width: 80%;
@@ -38,7 +38,7 @@
     justify-content: center;
     transition: .5s ease-in-out all;
     position: relative;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: var(--font-ppal);
 
 }
 
@@ -48,6 +48,8 @@
     position: absolute;
     left: 9%;
     font-size: 1rem;
+    font-weight: bold;
+    font-family: var(--font-ppal);
 }
 
 .arrow {
@@ -57,15 +59,18 @@
     left: 0px;
     transition: .4s ease-in-out all;
     opacity: 0;
+
 }
 
 .btn-ct:hover .arrow {
     left: calc(90% - 40px);
     opacity: 1;
+
 }
 
 .btn-ct:hover span {
     left: -10px;
+    color: white
 }
 
 .btn-ct:hover {

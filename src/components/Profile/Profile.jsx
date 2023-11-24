@@ -11,29 +11,34 @@ const Profile = () => {
         </div>
         <article className="profile-aboutme">
           <p>
-            Hola, soy Dariel. Tengo una licenciatura en Ingeniería en
-            Telecomunicaciones y Electrónica en la Universidad Central "Marta
-            Abreu" de Las Villas en Cuba, además de tener una Maestría en
-            Ciencias en Ingeniería Electrónica en el Tecnológico Nacional de
-            México en Celaya. Soy un apasionado de la programación web y me
-            encuentro en constante aprendizaje y actualización de conocimientos.
+            Hola, soy <span>Dariel</span>. Tengo una licenciatura en{" "}
+            <span>Ingeniería en Telecomunicaciones y Electrónica</span> en la
+            Universidad Central `Marta Abreu` de Las Villas en Cuba, además de
+            tener una
+            <span> Maestría en Ciencias en Ingeniería Electrónica</span> en el
+            Tecnológico Nacional de México en Celaya. Soy un apasionado de la
+            programación web y me encuentro en constante aprendizaje y
+            actualización de conocimientos.
           </p>
           <p>
-            Te puedo ayudar a crear tus aplicaciones web ya sea con HTML, CSS
-            (SASS) y Javascript o a través de la librería React Js. También
-            trabajo con frameworks como Bootstrap para los estilos y con
-            herramientas de desarrollo como Git y GitHub, y para el deploy de
-            proyectos creados en los repositorios a través de GitHub-Pages y
-            Vercel. En lo referente al backend tengo conocimientos en la
-            creación de api-REST con Node JS y MongoDB y el manejo de la api de
-            Google Firebase para el desarrollo de aplicaciones web.
+            Te puedo ayudar a crear tus aplicaciones web ya sea con{" "}
+            <span>HTML, CSS(SASS) y Javascript</span> o a través de la librería{" "}
+            <span>React Js</span>. También trabajo con frameworks como{" "}
+            <span>Bootstrap</span> para los estilos y con herramientas de
+            desarrollo como <span>Git y GitHub</span>, y para el deploy de
+            proyectos creados en los repositorios a través de{" "}
+            <span>GitHub-Pages y Vercel</span> . En lo referente al backend
+            tengo conocimientos en la creación de api-REST con{" "}
+            <span>Node JS</span> y <span>MongoDB</span> y el manejo de la api de
+            <span>Google Firebase</span> para el desarrollo de aplicaciones web.
           </p>
 
           <p>
             Actualmente resido en Guanajuato, Guanajuato, México y me encuentro
             constantemente realizando proyectos y aplicaciones de tipo blog,
-            e-commerce a modo de seguirme superando. En lo que te pueda apoyar
-            no dudes en contactarme.
+            e-commerce. Ademas de sistemas de gestion de usuarios con manejo de
+            APIs y Bases de Datos a modo de seguirme superando. En lo que te
+            pueda apoyar no dudes en contactarme.
           </p>
         </article>
         <a
