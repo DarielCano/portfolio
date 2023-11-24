@@ -42,7 +42,8 @@ const Profile = () => {
           </p>
         </article>
         <a
-          href="https://drive.google.com/file/d/1tTkd27bLXFh6M9vCI3uco_lMszwkZcl6/view?usp=share_link"
+          href="https://drive.google.com/file/d/1FkAkkbSbyW6v7XzDaVGqlkKoGt_gNfZ-/view"
+          /*   href="https://drive.google.com/file/d/1tTkd27bLXFh6M9vCI3uco_lMszwkZcl6/view?usp=share_link" */
           target="_blank"
           rel="noreferrer"
           className="btn btn-cv"
