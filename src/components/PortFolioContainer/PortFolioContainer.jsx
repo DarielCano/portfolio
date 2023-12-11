@@ -14,7 +14,9 @@ const PortFolioContainer = () => {
       .then((resp) => resp.json())
       .then((data) => {
         setProjects(data.proyectos);
-        setLoading(false);
+        setTimeout(() => {
+          setLoading(false);
+        }, 2000);
       })
 
       .catch((err) => console.log(err));

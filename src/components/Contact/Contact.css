@@ -63,6 +63,8 @@
     border: 0;
     border-bottom: thin solid black;
     padding: 0.5rem;
+    padding-bottom: 0.1rem;
+    margin-bottom: 0.5rem;
 }
 
 .contact-error {
